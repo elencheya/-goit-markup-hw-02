@@ -26,6 +26,8 @@ body {
     color: var(--main-text-color);
 } 
 
+/* ====ПРИХОВАНИЙ ЗАГОЛОВОК=======*/
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -147,8 +149,6 @@ body {
 }
 
 .speciality-description{
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
         
     letter-spacing: 0.03em;
@@ -183,7 +183,6 @@ body {
 .team-subtitle{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
     
     
     text-align: center;
