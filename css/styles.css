@@ -89,7 +89,6 @@ body {
 
 
 .header-address-link{
-    font-family: inherit;
     font-weight: 500;
     letter-spacing: 0.02em;
 
@@ -127,9 +126,6 @@ body {
     line-height: 1.88;
     
     
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     
     color: var(--white-color);
@@ -215,11 +211,15 @@ body {
 
 
 .footer-map-link{
-    font-style: inherit;
     line-height: 1.71;
     
     color: var(--white-color);
 }
+
+.address{
+    font-style: normal;
+}
+
 
 .footer-map-link:hover,
 .footer-map-link:focus{
@@ -228,7 +228,6 @@ body {
 
 
 .footer-link{
-    font-style: inherit;
     line-height: 1.71;
     
     
@@ -243,9 +242,8 @@ body {
 
 /*=====ПОРТФОЛІО====*/
 
-.button-link{
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
+.button{
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -257,10 +255,11 @@ body {
     background-color: var(--buttons-background-color);
     cursor: pointer;
 }
+    
 
 
-.button-link:hover,
-.button-link:focus{
+.button:hover,
+.button:focus{
     color: var(--white-color);
     background-color:var(--focus-color);
 }
